@@ -1,12 +1,12 @@
-### ZeroWrt-Firmware-CI
+### ZeroWrt-Firmware
 
 ZeroWrt 固件，由 ZeroDream 基于 VIKINGYFY 的 ImmortalWrt 源码开发
 
 ### 固件核心介绍
 
-ZeroWrt 固件的初始软件包非常精简，通过自研的虚拟算法，内置了大量 Kernel Modules
+ZeroWrt 固件的初始软件包非常精简，通过自研的虚拟算法，内置了大量的内核模块
 
-能够安装大部分的官方 Package，极少出现内核模块缺失的情况
+能够安装大部分的官方软件包，极少出现内核依赖缺失的问题
 
 ### 固件简要说明
 
@@ -18,7 +18,7 @@ ZeroWrt 固件的初始软件包非常精简，通过自研的虚拟算法，内
 
 ### 软件包下载
 
-https://github.com/zero-dream/ZeroWrt-Package-CI
+https://github.com/zero-dream/zerowrt-package
 
 ### 参考的项目
 
@@ -36,9 +36,9 @@ https://github.com/davidtall/OpenWRT-CI
 
 固件文件名的时间为开始编译的时间，方便核对上游源码的提交时间
 
-zerodream ------ ZeroDream-CI 私有目录
+zerodream ------ ZeroDream 私有目录
 
-hook ------ ZeroDream-CI 专用目录
+hook ------ Workflow 专用目录
 
 application ------ 应用目录
 
