@@ -26,6 +26,14 @@ https://github.com/VIKINGYFY/OpenWRT-CI
 
 https://github.com/davidtall/OpenWRT-CI
 
+### U-Boot
+
+高通版: https://github.com/chenxin527/uboot-ipq60xx-emmc-build
+
+联发科版: https://drive.wrt.moe/uboot/mediatek
+
+---
+
 ### Fork 注意事项
 
 本项目存在闭源的虚拟算法，Fork 的仓库在编译时不会添加部分配置
