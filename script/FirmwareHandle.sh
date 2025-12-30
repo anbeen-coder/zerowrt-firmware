@@ -69,11 +69,12 @@ if [ -f "$COREMARK_FILE" ]; then
 	echo ''
 fi
 
-# 修复 99_netspeedtest 文件残留的问题
+# 修复 99_netspeedtest 相关问题
 cd "$pkgPath"
 if [ -d *"luci-app-netspeedtest"* ]; then
 	cd ./luci-app-netspeedtest/
 	sed -i '$a\exit 0' ./netspeedtest/files/99_netspeedtest.defaults
+	sed -i 's/ca-certificates/ca-bundle/g' ./speedtest-cli/Makefile
 	echo "Fixed: netspeedtest"
 	echo ''
 fi
